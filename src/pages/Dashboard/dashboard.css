@@ -1,0 +1,51 @@
+.cards-dashboard {
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.cards-dashboard h6 {
+    color: #979797;
+}
+
+.cards-dashboard .cards-icon {
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.cards-dashboard .color-dashboard {
+    color: var(--main-color);
+}
+
+.spans-dashboard .text-card {
+    color: var(--second-color);
+}
+
+.dash-events .dash-event-card .dash-date {
+    background-color: #E7EBEE;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.dash-events .dash-event-card p {
+    color: #979797;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.dash-events .dash-event-card h6 {
+    font-size: 13px;
+    font-weight: bold;
+}

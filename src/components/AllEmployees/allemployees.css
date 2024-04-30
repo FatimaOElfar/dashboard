@@ -1,0 +1,28 @@
+.all-employees {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.add-employee-btn {
+    padding: 4px 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+}
+
+.add-employee-btn svg path {
+    color: var(--second-color) !important;
+}
+
+.all-employees .search-employee {
+    width: 433px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F4F4F4;
+    border: none;
+    outline: none;
+}
+

@@ -1,0 +1,29 @@
+.viewermember{
+    margin-top: 2.5rem;
+    background-color: white;
+    height: 48vh;
+    border-radius: 20px;
+}
+.viewermember-row{
+    padding: 2rem;
+}
+.viewermember-title{
+    text-align: center;
+    background: rgba(3, 68, 136, 0.2);
+    color:#034488;
+    height: 40vh;
+}
+.viewermember-title img{
+    margin-bottom: 1rem;
+    height: 100%;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.viewermember-card{
+    width: 176px;
+    height: 89px;
+    border-radius: 16px;
+    text-align: center;
+
+}

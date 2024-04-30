@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+.payroll{
+    /* padding: 20px 10px; */
+    /* overflow: auto; */
+    /* overflow: hidden; */
+}
+.payroll-chart{
+    /* width: 700px; */
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 2px 10px 0px #0000001A;
+    overflow-x: auto;
+
+    
+}
+.payroll-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.payroll-data h1{
+    font-size: 20px;
+    padding: 10px;
+    color: #034488;
+    
+
+}
+.payroll-info ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+     
+}
+.payroll-info ul li{
+    padding: 0 5px;
+    /* margin: 0 -10px; */
+    color: #979797;
+}
+
+.payroll-Dot{
+    font-size: 50px;
+    margin-right: -15px;
+}
+.payroll-info button{
+    width:80px;
+    Height:25px;
+    border-radius: 25px;
+    padding:2px 5px;
+    border: 1px solid #034488;
+    background-color: #fff;
+    font-size: 15px;
+    color: #034488;
+    margin-top: 8px;
+    display: flex;
+
+}
+.icon-payroll{
+    font-size: 10px;
+}
+.payroll-piechart{
+    width: 300px;
+     height: 300px ;
+     background:#fff;
+     margin:0 20px;
+     border-radius:16px;
+     box-shadow: 0px 2px 10px 0px #0000001A;
+     overflow: hidden;
+     text-align: center;
+}
+
+@media(max-width:768px){
+.payroll-piechart{
+    margin-top:45px ;
+    width: 100%;
+
+}
+}
+
+

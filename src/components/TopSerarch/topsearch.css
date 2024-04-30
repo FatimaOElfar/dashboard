@@ -1,0 +1,61 @@
+.search-div {
+    position: relative;
+}
+
+.search-div span.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    color: var(--main-color);
+}
+
+.search-input {
+    padding: 10px 32px 10px 50px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: var(--main-color);
+}
+
+.search-input::placeholder {
+    color: var(--main-color);
+}
+
+.top-icons {
+    display: flex;
+    margin-left: 50px;
+}
+
+.top-icons span {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px 6px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.top-icons span svg {
+    color: var(--main-color);
+}
+
+.admin-photo .admin-avatar {
+    border-radius: 15px;
+    width: 60px;
+}
+
+.admin-photo .admin-name h5 {
+    color: var(--second-color);
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .search-input {
+        padding: 8px 0 8px 5px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .search-icon {
+        display: none;
+    }
+}

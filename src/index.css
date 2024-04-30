@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --main-color: #A3AED0;
+    --second-color: #034488;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif','roboto';
+    font-family: roboto;
+    background-color: #F4F7FE !important;
+}
+
+.btn-main {
+    flex-shrink: 0;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    background: #034488;
+    box-shadow: 0px 20px 50px 0px rgba(55, 69, 87, 0.10);
+    color: #fff;
+    outline: none;
+    border: none;
+}

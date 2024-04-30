@@ -1,0 +1,38 @@
+.leaves-container{
+    background-color: white;
+    margin-top: 1.5rem;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:1px 1px #e3d5d5;
+    width: 100%;
+    
+}
+.leaves-header{
+    color:var(--second-color);
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+
+
+}
+.leaves-search-input {
+    padding: 9px 250px 10px 16px;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    color: var(--main-color);
+    background-color: #F4F4F4;
+    display: flex;
+}
+
+
+
+.Table-leaves{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
